@@ -1,0 +1,64 @@
+.tdxx {
+  border: 1px solid black !important;
+}
+
+.MuiTableCell-root MuiTableCell-head MuiTableCell-sizeSmall {
+  color: aliceblue;
+}
+.MuiTableHead-root {
+  background-color: #fefefe;
+  padding: 30px !important;
+  height: 300px !important;
+  color: aliceblue;
+}
+
+.MuiTableHead-root:hover {
+  background-color: gray;
+  padding: 30px !important;
+  height: 300px !important;
+  color: aliceblue;
+}
+.imgx {
+  position: absolute;
+  top: 0px;
+  z-index: -1;
+}
+.jbx {
+  background-color: white !important;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.crd {
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px !important;
+  transition: 0.4s;
+}
+.crd:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+}
+
+.btx {
+  width: 200px !important;
+}
+.btx1 {
+  width: 100px !important;
+}
+.btxx {
+  width: 30 !important;
+}
+
+.jbb {
+  margin-left: -20px;
+  width: 103%;
+  border: rgba(0, 0, 0, 0.19);
+  border-radius: 3px;
+  background-color: gray;
+  color: #fefefe;
+  height: 50px !important;
+}
+
+.slc {
+  height: 35px;
+  width: 300px;
+  border: rgba(0, 0, 0, 0.19);
+  border-radius: 3px;
+}

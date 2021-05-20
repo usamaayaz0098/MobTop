@@ -1,0 +1,30 @@
+{
+  "name": "nodegame",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm start\" \"npm run client\"",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "concurrently": "^6.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "mongoose": "^5.12.0",
+    "mv": "^2.1.1",
+    "nodemon": "^2.0.7",
+    "query-string": "^7.0.0",
+    "redux-persist": "^6.0.0",
+    "redux-thunk": "^2.3.0",
+    "saslprep": "^1.0.3",
+    "socket.io": "^3.0.5"
+  }
+}
